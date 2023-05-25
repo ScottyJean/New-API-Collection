@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "00baac1d-a730-41b7-b997-f7659c345f5a",
+		"name": "PRM Card Details",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16894606"
+	},
+	"item": [
+		{
+			"name": "New Get Card_details",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "esb",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "Password1$",
+							"type": "string"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"issuerNr\":2,\r\n    \"accountId\": \"5612330000000029825\"\r\n}"
+				},
+				"url": {
+					"raw": "https://sandbox.interswitchng.com/cms/api/v2/account/cards",
+					"protocol": "https",
+					"host": [
+						"sandbox",
+						"interswitchng",
+						"com"
+					],
+					"path": [
+						"cms",
+						"api",
+						"v2",
+						"account",
+						"cards"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
