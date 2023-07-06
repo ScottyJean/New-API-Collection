@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "c93b0b99-872f-4fe1-8641-b0d0c3ad9235",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16894606"
+	},
+	"item": [
+		{
+			"name": "Account Card Set key",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiJ9.eyJtZXJjaGFudF9jb2RlIjoiTVgxMjA5IiwicHJvZHVjdGlvbl9wYXltZW50X2NvZGUiOiIwMDE2NDYzOTg1NCIsInByb2R1Y3RJZCI6MTMsInJlcXVlc3Rvcl9pZCI6IjAwMTU2NjM2Mzc0IiwiZW52IjoiVEVTVCIsInBheWFibGVfaWQiOiI1MzkzIiwiY2xpZW50X2Rlc2NyaXB0aW9uIjpudWxsLCJjbGllbnRfaWQiOiJJS0lBQ0E2N0Q5MzE4NjlFNDBCRTA3RUU0MThBMEIwN0E0QTZEOUVFRjU4OCIsImluc3RpdHV0aW9uX2lkIjoiMTE3MzkiLCJhdWQiOlsiYXBpLWdhdGV3YXkiLCJhcmJpdGVyIiwiY2Flc2FyIiwiY2FyZCIsImNhcmRsZXNzLXNlcnZpY2UiLCJjcmVkaXQtc2NvcmUtc2VydmljZSIsImluY29nbml0byIsImlzdy1jb2xsZWN0aW9ucyIsImlzdy1jb3JlIiwiaXN3LWRhdGEtc2VydmljZSIsImlzdy1sZW5kaW5nLXNlcnZpY2UiLCJpc3ctcGF5bWVudGdhdGV3YXkiLCJpc3ctdHJhbnNmZXItc2VydmljZS1jb3JlLW1pY3Jvc2VydmljZSIsInBhc3Nwb3J0IiwicGF5bWVudC1zZXJ2aWNlIiwicGQtc2VydmljZSIsInBkLXNlcnZpY2UtY3VzdG9tZXItc2VydmljZSIsInBkLXRyYW5zYWN0aW9uLXNlcnZpY2UiLCJwb3N0Y2FyZC1hcGkiLCJwb3N0Y2FyZC1hcGktdjIiLCJwcm9qZWN0LXgtbWVyY2hhbnQiLCJxYi1idXNpbmVzcy1wb3J0YWwiLCJ0cmFuc2Zlci1zZXJ2aWNlLWNvcmUiLCJ0cmFuc2Zlci1zZXJ2aWNlLWNvcmUtYWRtaW4iLCJ2YXVsdCJdLCJjb3JlX2lkIjoiODE0MSIsInNjb3BlIjpbInByb2ZpbGUiXSwiYXBpX3Jlc291cmNlcyI6WyJyaWQtUE9TVC9hcGkvdjEvc2FmZXRva2VuIiwicmlkLVBPU1QvcWJyZXBvcnQvYXBpLyoiLCJyaWQtR0VUL3FicmVwb3J0L2FwaS8qIiwicmlkLVBPU1QvaXN3LWRhdGEtc2VydmljZS8qKiIsInJpZC1QVVQvaXN3LWRhdGEtc2VydmljZS8qKiIsInJpZC1HRVQvaXN3LWRhdGEtc2VydmljZS8qKiIsInJpZC1QT1NUL3RyYW5zZmVycy9pbnF1aXJpZXMvKioiLCJyaWQtUE9TVC90cmFuc2ZlcnMvYWNjb3VudHMvKioiLCJyaWQtUE9TVC9hcGkvdjEvdHJhbnNmZXJzL3NlY3VyaXR5LyoqIiwicmlkLVBPU1QvYXBpL3YxL3RyYW5zZmVycy9pbnN0aXR1dGlvbnMvZngvKioiLCJyaWQtUFVUL3RyYW5zZmVycy9pbnF1aXJpZXMvdXBkYXRlIiwicmlkLVBVVC9hcGkvdjEvdHJhbnNmZXJzL3NlY3VyaXR5LyoqIiwicmlkLVBVVC9hcGkvdjEvdHJhbnNmZXJzL2luc3RpdHV0aW9ucy9meC8qKiIsInJpZC1HRVQvdHJhbnNmZXJzL2NyZWRpdHMvKioiLCJyaWQtR0VUL3RyYW5zZmVycy9zZXR0bGVtZW50cy8qKiIsInJpZC1HRVQvdHJhbnNmZXJzL3RyYW5zYWN0aW9uLyoqIiwicmlkLUdFVC9hcGkvdjEvdHJhbnNmZXJzL3NlY3VyaXR5LyoqIiwicmlkLUdFVC9hcGkvdjEvdHJhbnNmZXJzL2luc3RpdHV0aW9ucy9meC8qKiIsInJpZC1ERUxFVEUvYXBpL3YxL3RyYW5zZmVycy9zZWN1cml0eS8qKiJdLCJwb3N0Y2FyZF91c2VyIjoiZXNiIiwiZXhwIjoxNjg3ODc1OTQ5LCJjbGllbnRfbmFtZSI6IlRlc3REZW1vQXBwIiwiY2xpZW50X2xvZ28iOm51bGwsImp0aSI6IjgwM2MyNTdmLWRmMDQtNDNjOC05ODMyLTM3ZDljNDEwYjM1YyIsInBheW1lbnRfY29kZSI6IjA1MTQxOTgxNTQ2ODUifQ.dA8VeDNoU02y0UWYr0ilU6fk34i8E9J9gglvT6Cbv-JEJc4ZciHAlQgbe_OoBCKNsJrpdt3k8REXaKrqCwHvRcGWgKIkOw3EQ21PQi6cbAJHm4OCa1L0o64fAUN0MLSP6hGR7bgjTbcF604pTjjAI0xDQYoOGabqJlH3zfaVtIaoNfDuk2TlQgWXkq2u-ZnCBcdf_zG-2CUwnM_7GFsOSwBQk9m5uXqweW2j7igKiK7TclUeJ-v3aaqyYNlj9HIKDFQCvTnL3bT_aRictzlkaLPARdKwWBrTx967n3Cjg5PksbEDsLkFMWV-z8kEARriMUlmtHRNQeQCGG9w3ActFw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"operation\": 3,\r\n    \"securePin\": false,\r\n    \"pinKey\": \"CDCBADEDDDADCADBCADACCADBBFECDDF\",\r\n    \"translatePinBlk\": \"true\"\r\n}"
+				},
+				"url": {
+					"raw": "https://sandbox.interswitchng.com/cms/api/v2/user/pin-key/update",
+					"protocol": "https",
+					"host": [
+						"sandbox",
+						"interswitchng",
+						"com"
+					],
+					"path": [
+						"cms",
+						"api",
+						"v2",
+						"user",
+						"pin-key",
+						"update"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
